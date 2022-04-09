@@ -6,14 +6,11 @@ import { Hero } from './hero.model';
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css']
 })
-export class HeroesComponent implements OnInit {
+export class HeroesComponent{
   hero: Hero = {
-   id: 1,
-  name: 'Homem Aranha'
+    id: 1,
+    name: 'Homem Aranha',
   };
-  constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  heroes = HEROES;
 }
