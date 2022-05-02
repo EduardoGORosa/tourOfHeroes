@@ -18,10 +18,6 @@ import { HeroesModule } from './heroes/heroes.module';
     FormsModule,
     BrowserAnimationsModule,
 
-    //feature
-    DashboardModule,
-    HeroesModule,
-
     //app
     CoreModule,
     AppRoutingModule,
