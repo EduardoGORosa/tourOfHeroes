@@ -72,7 +72,8 @@
               "browserTarget": "TourHeroes:build:production"
             },
             "development": {
-              "browserTarget": "TourHeroes:build:development"
+              "browserTarget": "TourHeroes:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
